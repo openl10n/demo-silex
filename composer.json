@@ -1,0 +1,34 @@
+{
+    "name": "openl10n/demo-silex",
+    "type": "project",
+    "description": "Demo of openl10n using a basic Silex app.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Moquet",
+            "email": "matthieu@moquet.net",
+            "homepage": "http://moquet.net/"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "~1.6",
+        "silex/silex": "~1.1",
+        "symfony/config": "~2.3",
+        "symfony/console": "~2.3",
+        "symfony/finder": "~2.2",
+        "symfony/translation": "~2.3",
+        "symfony/twig-bridge": "~2.3",
+        "symfony/yaml": "~2.3",
+        "twig/twig": "~1.10",
+        "silex/web-profiler": "~1.0.1"
+    },
+    "scripts": {
+        "post-install-cmd": "SKE\\Composer\\Script::install",
+        "post-update-cmd": "SKE\\Composer\\Script::install"
+    },
+    "autoload": {
+        "psr-0": {
+            "SKE": "src/"
+        }
+    }
+}

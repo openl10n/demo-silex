@@ -1,0 +1,33 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+  <div class="jumbotron">
+    <h1>{{ 'page.index.jumbotron.title'|trans }}</h1>
+    <p class="lead">
+      {{ 'page.index.jumbotron.paragraph'|trans }}
+    </p>
+    <p>
+      <a class="btn btn-lg btn-success" href="http://openl10n.io" role="button">
+        {{ 'page.index.jumbotron.button'|trans }}
+      </a>
+    </p>
+  </div>
+
+  <div class="row marketing">
+    <div class="col-lg-6">
+      <h4>{{ 'marketing.item1.title'|trans }}</h4>
+      <p>{{ 'marketing.item1.text'|trans }}</p>
+
+      <h4>{{ 'marketing.item2.title'|trans }}</h4>
+      <p>{{ 'marketing.item2.text'|trans }}</p>
+    </div>
+
+    <div class="col-lg-6">
+      <h4>{{ 'marketing.item3.title'|trans }}</h4>
+      <p>{{ 'marketing.item3.text'|trans }}</p>
+
+      <h4>{{ 'marketing.item4.title'|trans }}</h4>
+      <p>{{ 'marketing.item4.text'|trans }}</p>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,34 @@
+head:
+    title: "Openl10n demo with a Silex app"
+    author: "Matthieu Moquet"
+    description: "This is an example of a Silex application using Openl10n to manage translations"
+
+brand_name: "Openl10n demo"
+
+menu:
+    home: "Home"
+    about: "About"
+    contact: "Contact"
+
+footer:
+    trademark: "Openl10n %date%"
+
+page.index:
+    jumbotron:
+        title: "This is Openl10n"
+        paragraph: "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+        button: "Learn more"
+
+marketing:
+    item1:
+        title: "Subheading 1"
+        text: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+    item2:
+        title: "Subheading 2"
+        text: "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum."
+    item3:
+        title: "Subheading 3"
+        text: "Maecenas sed diam eget risus varius blandit sit amet non magna."
+    item4:
+        title: "Subheading 4"
+        text: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
