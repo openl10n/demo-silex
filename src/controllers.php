@@ -1,10 +1,17 @@
 <?php
 
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 
 $app->match('/', function() use ($app) {
+    return new RedirectResponse('/en');
+});
+
+$app->match('/{locale}', function($locale) use ($app) {
+    $app['locale'] = $locale;
+
     return $app['twig']->render('index.html.twig');
-})->bind('homepage');
+});
 
 $app->error(function (\Exception $e, $code) use ($app) {
     if ($app['debug']) {

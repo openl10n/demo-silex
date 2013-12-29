@@ -1,0 +1,7 @@
+head.author: 'Matthieu Moquet'
+menu.home: Accueil
+menu.about: 'A propos'
+menu.contact: Contact
+footer.trademark: 'Openl10n %date%'
+page.index.jumbotron.title: 'Et voilà Openl10n'
+page.index.jumbotron.paragraph: 'Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.'
