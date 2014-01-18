@@ -6,7 +6,8 @@ server:
 
 # Project specification
 project:
-    name: silex
+    name: My Silex App
+    slug: silex
     locales: [en, fr, es]
 
 # Translation files
