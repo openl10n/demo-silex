@@ -1,19 +1,21 @@
 # Server connection
 server:
-    hostname: openl10n.dev
-    username: user
-    password: user
+  hostname: openl10n.dev
+  username: user
+  password: user
 
 # Project specification
 project:
-    slug: silex
-    locales: [en, fr, es]
+  slug: silex
+  locales: [en, fr, es]
 
 # Translation files
 files:
-    -
-      source: resources/locales/<domain>.<locale>.yml
-      #exclude: countries.en.yml
+  -
+    source: resources/locales/<domain>.<locale>.yml
+    #exclude: countries.en.yml
+    options:
+      pull: [fallback_locale, fallback_key]
 
 # Misc options
 options: ~
