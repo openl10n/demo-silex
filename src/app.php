@@ -15,9 +15,9 @@ $app['locale_fallbacks'] = ['fr', 'en'];
 $app['translator'] = $app->share($app->extend('translator', function($translator, $app) {
     $translator->addLoader('yaml', new YamlFileLoader());
 
-    $translator->addResource('yaml', __DIR__.'/../resources/locales/messages.en.yml', 'en');
-    $translator->addResource('yaml', __DIR__.'/../resources/locales/messages.es.yml', 'es');
-    $translator->addResource('yaml', __DIR__.'/../resources/locales/messages.fr.yml', 'fr');
+    $translator->addResource('yaml', __DIR__.'/../resources/locales/en.yml', 'en');
+    $translator->addResource('yaml', __DIR__.'/../resources/locales/es.yml', 'es');
+    $translator->addResource('yaml', __DIR__.'/../resources/locales/fr.yml', 'fr');
 
     return $translator;
 }));

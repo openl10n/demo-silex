@@ -5,14 +5,12 @@ server:
   password: user
 
 # Project specification
-project:
-  slug: silex
-  locales: [en, fr, es]
+project: silex
 
 # Translation files
 files:
   -
-    source: resources/locales/<domain>.<locale>.yml
+    pattern: resources/locales/<locale>.yml
     #exclude: countries.en.yml
     options:
       pull: [fallback_locale, fallback_key]
