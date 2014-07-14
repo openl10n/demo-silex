@@ -2,7 +2,7 @@
 server:
   hostname: openl10n.dev
   username: user
-  password: user
+  password: userpass
 
 # Project specification
 project: silex
